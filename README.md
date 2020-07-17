@@ -1,2 +1,2 @@
-# website
+# samhince.com
 Personal Website
