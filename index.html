@@ -10,7 +10,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: lightgray;
+  background-color: #CCDDEE;
 }
 
 header {
@@ -25,6 +25,7 @@ header {
 
 footer {
   z-index:2;
+  position: fixed;
   bottom:0px;
   width: 100%;
   background-color: #333;
@@ -39,7 +40,7 @@ footer {
   position: relative;
   overflow-y: scroll;
   width: 100%;
-  background-color: white;
+  background-color: #CCDDEE;
   overflow: hidden;
   padding: 0% 0%;
   margin: 0%;
@@ -82,6 +83,30 @@ footer {
   margin: 0%;
 }
 
+.leftImage {
+  float: left;
+  width: 70%;
+}
+
+.rightImage {
+  float: right;
+  width: 50%;
+}
+
+.leftText {
+  float: left;
+  width: 46%;
+  padding: 2% 2%;
+  background-color: #CCDDEE;
+}
+
+.rightText {
+  float: right;
+  width: 26%;
+  padding: 2% 2%;
+  background-color: #CCDDEE;
+}
+
 </style>
 
 
@@ -100,22 +125,28 @@ footer {
     </header>
 
     <div class="content">
+	
+	<div>
+	    <div class="leftText">
+	        <h1>Hi, I'm Sam</h1>
+	        <h3>Welcome to my personal website</h3>
 
-	<div class="text">
-	    <h1>Hi, I'm Sam</h1>
-	    <h3>Welcome to my personal website</h3>
-	</div>
+		<p>This website is a work in progress, intended to document a few of my personal and professional endeavors that may be of interest to my colleagues. Please have a look around and feel free to reach out to me through the contact page. </p>
+	    </div>
 
-        <img src="./0001.jpg" alt="Sam" width="100%" height="100%">
+            <div class="rightImage">
+                <img src="./0004_crop.jpg" alt="Sam" width="100%" height="100%">
+            </div>
+        </div>
 
-        <footer>
-            <p>Website created by Sam Hince</p>
-        </footer>
+
 
     </div>
 
+    <footer>
+        <p>Website created by Sam Hince</p>
+    </footer>
 
   </body>
-
 
 </html>

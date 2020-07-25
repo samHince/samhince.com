@@ -10,7 +10,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: lightgray;
+  background-color: #CCDDEE;
 }
 
 header {
@@ -70,8 +70,45 @@ footer {
   color: white;
 }
 
-.banner {
-  
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  font-size: 150%;
+}
+
+.top-left {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  font-size: 150%;
+}
+
+.top-right {
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  font-size: 150%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  font-size: 150%;
+}
+
+.leftText {
+  float: left;
+  width: 100%;
+  padding: 2% 2%;
+  background-color: #CCDDEE;
 }
 
 </style>
@@ -93,18 +130,71 @@ footer {
 
     <div class="content">
 
+	<div class="leftText">
+	    <h1>Travel</h1>
+	    <h3>As a student I have been fortunate enough to travel to a lot of amazing places. Below is a collection of some of my favorite photos from my travels. </h3>
+        </div>
 
-        <img src="./sweden.jpg" alt="Sweden" width="100%" height="100%">
-        <img src="./wales.jpg" alt="Wales" width="100%" height="100%">
-        <img src="./hungary.jpg" alt="Hungary" width="100%" height="100%">
-        <img src="./england.jpg" alt="England" width="100%" height="100%">
-        <img src="./denmark.jpg" alt="Denmark" width="100%" height="100%">
-        <img src="./belgium.jpg" alt="Belgium" width="100%" height="100%">
-        <img src="./france.jpg" alt="France" width="100%" height="100%">
-        <img src="./austria.jpg" alt="Austria" width="100%" height="100%">
-        <img src="./norway.jpg" alt="Norway" width="100%" height="100%">
-        <img src="./netherlands.jpg" alt="Netherlands" width="100%" height="100%">
-        <img src="./mexico.jpg" alt="Mexico" width="100%" height="100%">
+        <div class="container">
+            <img src="./sweden.jpg" alt="Sweden" width="100%;">
+            <div class="bottom-left"><h1>Sweden</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./wales.jpg" alt="Wales" width="100%;">
+            <div class="bottom-left"><h1>Wales</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./hungary.jpg" alt="Hungary" width="100%;">
+            <div class="top-right"><h1>Hungary</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./england.jpg" alt="England" width="100%;">
+            <div class="top-right"><h1>England</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./denmark.jpg" alt="Denmark" width="100%;">
+            <div class="bottom-left"><h1>Denmark</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./belgium.jpg" alt="Belgium" width="100%;">
+            <div class="top-right"><h1>Belgium</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./france.jpg" alt="France" width="100%;">
+            <div class="bottom-left"><h1>France</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./austria.jpg" alt="Austria" width="100%;">
+            <div class="top-right"><h1>Austria</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./norway.jpg" alt="Norway" width="100%;">
+            <div class="top-right"><h1>Norway</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./netherlands.jpg" alt="Netherlands" width="100%;">
+            <div class="bottom-left"><h1>Netherlands</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./germany.jpg" alt="Germany" style="width:100%;">
+            <div class="top-right"><h1>Germany</h1></div>
+        </div>
+
+        <div class="container">
+            <img src="./mexico.jpg" alt="Mexico" width="100%;">
+            <div class="bottom-left"><h1>Mexico</h1></div>
+        </div>
+
 
         <footer>
             <p>Website created by Sam Hince</p>
