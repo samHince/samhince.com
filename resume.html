@@ -10,7 +10,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: lightgray;
+  background-color: #CCDDEE;
 }
 
 header {
@@ -18,7 +18,7 @@ header {
   position: fixed;
   top:0px;
   width:100%;
-  background-color: lightgray;
+  background-color: #CCDDEE;
   height: 48px;
   overflow: hidden;
 }
@@ -76,9 +76,18 @@ footer {
 
 .text {
   width: 100%;
-  background-color: white;
+  background-color: #CCDDEE;
   overflow: hidden;
   padding: 2% 2%;
+  margin: 0%;
+}
+
+.resume {
+  width: 100%;
+  text-align: center;
+  background-color: #CCDDEE;
+  overflow: hidden;
+  padding: 0% 0%;
   margin: 0%;
 }
 
@@ -91,7 +100,8 @@ footer {
     
     <header>
         <div class="topnav">
-            <a class="active" href="./index.html">Home</a>
+            <a href="./index.html">Home</a>
+            <a class="active" href="./resume.html">Resume</a>
             <a href="./research.html">Research</a>
             <a href="./travel.html">Travel</a>
             <a href="./projects.html">Projects</a>
@@ -105,9 +115,19 @@ footer {
 	    <h1>Resume</h1>
 	</div>
 
-        <img src="./Resume.jpg" alt="PDF of Resume" width="100%" height="100%">
+        <div class="resume">
+            <img src="./Resume.jpg" alt="PDF of Resume" width="75%" height="100%">
+        </div>
 
-        <p>Open Resume as PDF<a href="./Resume.pdf">Resume</a>.</p>
+        <div class="text">
+            <p>Open Resume as PDF <a href="./Resume.pdf">Resume</a>.</p>
+        </div>
+
+        <div class="text">
+            <h1>External Links</h1>
+            <p>Linkedin: <a href="https://www.linkedin.com/in/sam-hince/">https://www.linkedin.com/in/sam-hince/</a>.</p>
+            <p>Github: <a href="https://github.com/samHince">https://github.com/samHince</a>.</p>
+        </div>
 
         <footer>
             <p>Website created by Sam Hince</p>
